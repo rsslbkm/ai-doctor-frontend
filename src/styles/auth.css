@@ -1,0 +1,68 @@
+.authWrap {
+  min-height: calc(100vh - 40px);
+  display: grid;
+  place-items: center;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 18px;
+}
+
+.authTitle {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0 0 8px;
+}
+
+.authHint {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.input, .select {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  outline: none;
+  background: #fff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.error {
+  margin-top: 10px;
+  color: var(--danger);
+  font-weight: 900;
+  font-size: 13px;
+}
